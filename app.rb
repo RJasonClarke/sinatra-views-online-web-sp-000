@@ -12,5 +12,9 @@ class App < Sinatra::Base
 		erb :info
 	end
 
+	get "/see-ya-later" do
+		erb :stinky
+	end
+
 
 end
